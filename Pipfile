@@ -1,0 +1,15 @@
+[[source]]
+url = "https://artifacts.platform.avalara.io/artifactory/api/pypi/one-returns-rpa-robocorp-pypi-dev/simple"
+verify_ssl = true
+name = "pip_conf_index_global"
+
+[packages]
+flask ="3.1.0"
+pymongo ="4.3.3"
+numpy ="2.2.4"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
+
